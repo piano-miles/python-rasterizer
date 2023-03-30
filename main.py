@@ -20,7 +20,7 @@ sc = pi / 18
 # light direction (user can change init values)
 lx = -2
 ly = 1
-norm = sqrt(lx**2 + ly**2)
+norm = sqrt(lx * lx + ly * ly)
 lx /= norm
 ly /= norm
 
